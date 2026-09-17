@@ -150,3 +150,60 @@ Instead, end with the 3–5 strongest hypotheses that should now be tested again
 * operational data.
 
 For each hypothesis state what evidence would confirm or disprove it.
+
+### 4.
+
+Open the folder 00-rook/code/dispatch-routing/. This is the part of our software that decides who gets asked to take a job. I have never read code before and I am not going to start now. Walk me through what happens from the moment something goes wrong somewhere to the moment a responder's phone buzzes, in plain English, no jargon. Then tell me which file each step lives in. please explain as if I am 5
+
+### 5.
+
+Has anything in this code changed recently? Walk me through what's different, and why it would matter to a responder. HELP me understand it in a more simple way, considering that I have a very strong PM background but no code experience.
+
+### 6.
+
+can you explain in visual way
+
+### 7.
+
+so basically  because one of the main changes was response time from 90 to 60, it shifted the whole priorization and work logic behind the job delivery. it this correct?
+
+### 8.
+
+make a decision map of before and after. do write the pros and cons of before and after the release
+
+### 9.
+
+show me where in the code there is a proof for your feedback.
+
+### 10.
+
+Based on what I found, the reason some responders are getting no pings at all is ___, because ___. state my hypothesis as a senior product manager
+
+### 11.
+
+can you prove this with the actual data?
+
+### 12.
+
+Using `callout-history.csv`, test the hypothesis from Lab A that Release 4.2 changed how callouts are distributed across responders.
+Compare responder-level `pings_sent` before and after the 12 August release.
+Tell me:
+
+* which responders received materially fewer callouts,
+* which received materially more,
+* whether the distribution became more uneven after 4.2,
+* and whether the data supports or contradicts the hypothesis that the new routing weights concentrated callouts on a smaller group of responders.
+
+Do not assume causation from correlation. Give me the clearest evidence and any contradictions in the data.
+
+### 13.
+
+Find me the part of this code that takes points off somebody when they miss a ping or turn one down. Show it to me and explain it in plain English. Then find me every single thing in this code that puts points back on. walk step by step what happens when someone doesn't get a ping - what is the lifecycle of gaining and losing points. can you get the points back?
+
+### 14.
+
+what happens when a superhero goes on vacation? what happens with their score?
+
+### 15.
+
+exactly when you go on vacation, you dont get promoted
